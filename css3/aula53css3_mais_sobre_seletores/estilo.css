@@ -1,0 +1,45 @@
+/*************************************
+ * SELETOR UNIVERSAL*/
+ /* * {
+ 	border: 1PX SOLID RED;
+ }*/
+/*************************************
+ * SELETOR DE TEXTO*/
+ h1{
+ 	color: green;
+ }
+
+/*************************************
+ * SELETOR DE CLASSE*/
+ p.azul{
+ 	color: blue;
+ }
+
+/*************************************
+ * SELETOR DE ID*/
+ #cabecalho{
+ 	border: solid 1px orange;
+ }
+/*************************************
+ * SELETOR DE FILHO*/
+ li>a {
+ 	color: red;
+ 	text-decoration: none;
+ }
+/*************************************
+ * SELETOR DE DESCENDETE*/
+ p a{
+ 	color: green;
+ 	text-decoration: none;
+ }
+
+/*************************************
+ * SELETOR DE IRMÃO ADJACENTE*/
+ h1+p{
+ 	color: red;
+ }
+/*************************************
+ * SELETOR DE IRMÃO GERAL*/
+ h1~p{
+ 	color: blueviolet;
+ }

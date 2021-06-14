@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Posicionamentos (static, relative, absolute e fixed)</title>
+		<style type="text/css">
+			body{
+				background: #007FC7;
+			}
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+			}
+			h1{
+				position: static;
+			}
+			p{
+				width: 300px;				
+			}
+			.fixada{
+				position: fixed;
+				border: 1px solid red;
+				bottom: 15px;
+				right: 0px;				
+			}
+			.absoluta{
+				position: absolute;
+				border: 1px solid red;
+				top: 0px;
+				right: 80px;
+			}
+			.relative{
+				border: 1px red solid;
+				position: relative;
+				top: 20px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id = "container">
+			<h1>Posicionamentos</h1>
+			<p>
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+			<p class= 'absoluta'><!--"relative"-->
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+
+			<p class="fixada">
+				P4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+
+			<p>
+				P5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+
+			<p>
+				P6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio nibh. Sed risus nulla, blandit sed eros eu, viverra vestibulum orci. Donec urna lorem, feugiat eu imperdiet at, lobortis consectetur ex. Etiam vitae ante sed urna accumsan porttitor. Etiam gravida dui non pulvinar tristique. Donec pulvinar facilisis massa nec pellentesque. Integer orci mi, commodo sit amet aliquet vel, sagittis fringilla risus. Nam id sem lectus. Sed id semper arcu.
+			</p>
+		</div>
+	</body>
+</html>
